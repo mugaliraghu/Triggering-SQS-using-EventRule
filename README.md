@@ -81,3 +81,8 @@ Resources:
       Queues:
         - Ref: MySqsQueue
    ```
+
+after that navigate to the file where  template.yaml file is presenet and do
+```
+sam build
+```
