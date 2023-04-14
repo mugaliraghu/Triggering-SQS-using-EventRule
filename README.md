@@ -86,3 +86,8 @@ after that navigate to the file where  template.yaml file is presenet and do
 ```
 sam build
 ```
+
+In the next step use this below command to deploy the application on aws
+```
+sam deploy --guided
+```
