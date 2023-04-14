@@ -1,5 +1,5 @@
 
-## This CloudFormation template creates an EventBridge rule that filters for EC2 instance state-change notifications and sends the filtered events to an SNS topic and an SQS queue. The SNS topic has a subscription for email notifications.
+### This CloudFormation template creates an EventBridge rule that filters for EC2 instance state-change notifications and sends the filtered events to an SNS topic and an SQS queue. The SNS topic has a subscription for email notifications.
 
 ```t
 AWSTemplateFormatVersion: '2010-09-09'
